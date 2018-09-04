@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FoodDetail"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/food_photo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INGREDIENTS"
+            android:textSize="22dp"
+            android:fontFamily="AR CHRISTY"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false"
+            android:backgroundTint="@color/lightred">
+            <TextView
+                android:id="@+id/ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:text="Ingredients"/>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RECIPIE"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="AR CHRISTY"
+            android:textColor="@color/colorPrimaryDark"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="7dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="false"
+            android:backgroundTint="@color/lightred">
+            <TextView
+                android:id="@+id/recipies"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:text="Recipies"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

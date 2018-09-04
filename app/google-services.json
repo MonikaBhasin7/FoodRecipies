@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "625012974118",
+    "firebase_url": "https://fir-recyclerview-8ad39.firebaseio.com",
+    "project_id": "fir-recyclerview-8ad39",
+    "storage_bucket": "fir-recyclerview-8ad39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625012974118:android:4a251d1a587fd610",
+        "android_client_info": {
+          "package_name": "com.m.foodrecipies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625012974118-kj1gpklg7v1fmv9mph81fi8oqtl9at7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvHnpul4CdTj2lcNLa-VBCYtAbflPvJdU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
